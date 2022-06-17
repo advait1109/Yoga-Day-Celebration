@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Yoga Celebration</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <audio src="music.mp3"></audio>
+            <button id="my_button" class="btn btn-info">
+            <h1 id="title_welcome">Welcome to Yoga Day Celebration!</h1>
+            </button><br><br>
+            <div id="hide_it">
+            <h6>Note: Click on Lets Go to Start</h6><br><br>
+            <button id="start" onclick="start_it()" class="btn btn-danger">Lets go!</button><br><br>
+            <img class="col-sm col-md" width="400" height="250" src="https://static.onecms.io/wp-content/uploads/sites/35/2019/04/16045733/benefits-yoga-fb.jpg"></div>
+            <div hidden="true" id="div_1">
+            <button id="quiz_question">
+                <h2 id="quiz_q_text">Who Invented Yoga?</h2>
+            </button><br><br>
+            <button id="op1b" onclick="ans2r() ans1w() ans3w() ans4w()">
+                <h2 id="op1t">Lord Vishnu</h2>
+            </button>
+            <button id="op2b" onclick="ans2w() ans1w() ans3r() ans4w()">
+                <h2 id="op2t">Lord Bramha</h2>
+            </button>
+            <button onclick="ans2w() ans1r() ans3w() ans4w()" id="op3b">
+                <h2 id="op3t">Lord shiva</h2>
+            </button>
+            <button id="op4b" onclick="ans2w() ans1w() ans4r() ans3w()">
+                <h2 id="op4t">None Of them</h2>
+            </button>
+        </div>
+        </center>
+    </body>
+</html>
